@@ -87,7 +87,7 @@ $(document).ready(function () {
   // generate text in input
   function textGenerate() {
     var n = "";
-    var text = " " + "Vì ku khánh đẹp try quóe :)))))";
+    var text = " " + "Vì ku Khánh đẹp try quóe :)))))";
     var a = Array.from(text);
     var textVal = $("#txtReason").val() ? $("#txtReason").val() : "";
     var count = textVal.length;
@@ -134,7 +134,7 @@ $(document).ready(function () {
           confirmButtonText: "Okii lunn <3",
           background: '#fff url("img/iput-bg.jpg")',
           title: "Anh biết mà ^^ Yêu em suốt cái đời",
-          text: "Tối nay khánh qua đón bánh bao đi quẩy nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho con nợ này đi nàooo",
+          text: "Tối nay Khánh qua đón bánh bao đi quẩy nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho con nợ này đi nàooo",
           confirmButtonColor: "#83d0c9",
           onClose: () => {
             window.location = "http://m.me/100004927299932";
