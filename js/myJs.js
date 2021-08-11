@@ -24,16 +24,16 @@ $(document).ready(function () {
     });
   }, 600);
 
-  $("#text3").html(textConfig.text3);
-  $("#text4").html(textConfig.text4);
-  $("#no").html(textConfig.text5);
-  $("#yes").html(textConfig.text6);
+  $("#text3").html("Chủ nợ yêu con nợ ni có phải không nào ._.");
+  $("#text4").html("Nếu bánh bao hông trả lời mà thoát ra tức là muốn làm vợ mình rồi đó nha :v");
+  $("#no").html("Anh mơ à???");
+  $("#yes").html("Yêu ơi là yêu <3");
 
   function firstQuestion() {
     $(".content").hide();
     Swal.fire({
       title: "He luu Bánh Bao nhân đậu xanh =)))!",
-      text: textConfig.text2,
+      text: "Anh có điều này muốn hỏi emm nhớ phải trả lời thật lòng nhaaa.",
       imageUrl: "img/cuteCat.jpg",
       imageWidth: 300,
       imageHeight: 300,
@@ -87,7 +87,7 @@ $(document).ready(function () {
   // generate text in input
   function textGenerate() {
     var n = "";
-    var text = " " + textConfig.text9;
+    var text = " " + "Vì ku khánh đẹp try quóe :)))))";
     var a = Array.from(text);
     var textVal = $("#txtReason").val() ? $("#txtReason").val() : "";
     var count = textVal.length;
@@ -109,7 +109,7 @@ $(document).ready(function () {
     var audio = new Audio("sound/tick.mp3");
     audio.play();
     Swal.fire({
-      title: textConfig.text7,
+      title: "Lí do bánh bao thích con nợ này đi :vvvv",
       html: true,
       width: 900,
       padding: "3em",
@@ -126,15 +126,15 @@ $(document).ready(function () {
       cancelButtonColor: "#d33",
       confirmButtonColor: "#fe8a71",
       cancelButtonColor: "#f6cd61",
-      confirmButtonText: textConfig.text8,
+      confirmButtonText: "Gửi cho mình <3",
     }).then((result) => {
       if (result.value) {
         Swal.fire({
           width: 900,
-          confirmButtonText: textConfig.text12,
+          confirmButtonText: "Okii lunn <3",
           background: '#fff url("img/iput-bg.jpg")',
-          title: textConfig.text10,
-          text: textConfig.text11,
+          title: "Anh biết mà ^^ Yêu em suốt cái đời",
+          text: "Tối nay khánh qua đón bánh bao đi quẩy nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho con nợ này đi nàooo",
           confirmButtonColor: "#83d0c9",
           onClose: () => {
             window.location = "http://m.me/100004927299932";
