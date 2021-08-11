@@ -32,7 +32,7 @@ $(document).ready(function () {
   function firstQuestion() {
     $(".content").hide();
     Swal.fire({
-      title: textConfig.text1,
+      title: "He luu Bánh Bao nhân đậu xanh =)))!",
       text: textConfig.text2,
       imageUrl: "img/cuteCat.jpg",
       imageWidth: 300,
