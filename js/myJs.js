@@ -7,9 +7,9 @@ const textConfig = {
   text6: "Yêu ơi là yêu <3",
   text7: "Lí do bánh bao thích con nợ này đi :vvvv",
   text8: "Gửi cho mình <3",
-  text9: "Vì ku khánh đẹp try quóe :)))))",
+  text9: "Vì ku Khánh đẹp try quóe :)))))",
   text10: "Anh biết mà ^^ Yêu em suốt cái đời",
-  text11: "Tối nay khánh qua đón bánh bao đi quẩy nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho con nợ này đi nàooo",
+  text11: "Tối nay Khánh qua đón bánh bao đi quẩy nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho con nợ này đi nàooo",
   text12: "Okii lunn <3",
 };
 
